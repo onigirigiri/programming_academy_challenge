@@ -1,0 +1,91 @@
+.Flex {
+    display: flex;
+    }
+    .Flex_SpaceAround_Center_Wrap {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    }
+    .Background_Blue {
+    background: blue;
+    font-size: 3px;
+    color: white;
+    text-align: right;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 4px;
+    }
+    ul li:nth-of-type(2){
+        margin: auto;
+    }
+    ul li:nth-of-type(3){
+        margin: auto;
+    }
+    ul li:nth-of-type(4){
+        margin: auto;
+    }
+    ul li:nth-of-type(5){
+        margin: auto;
+    }
+    ul li:nth-of-type(6){
+        margin: auto;
+    }
+    ul li:nth-of-type(7){
+        margin: auto;
+        color: white;
+    }
+    ul li:nth-of-type(7) {
+        position: relative;
+        margin: 2em 20 2em 20px;
+        padding: 2px 20px;
+        background: red;
+        border-radius: 70px;
+    }
+    ul li:nth-of-type(7):before{font-family: FontAwesome;
+        position: absolute;
+        font-size: 15px;
+        left: -40px;
+        bottom: 0;
+        color: red;
+    }
+    ul li:nth-of-type(7):after{
+        font-family: FontAwesome;
+        position: absolute;
+        font-size: 23px;
+        left: -23px;
+        bottom: 0;
+        color: red;
+    }
+    ul li:nth-of-type(7) p {
+        margin: 0; 
+        padding: 0;
+    }
+    .Background_Red {
+    background: white;
+    }
+    .Background_Green {
+    background: green;
+    }
+    .Background_Yellow {
+    background: yellow;
+    }
+    .Background_Green {
+    background: green;
+    }
+    .Size_W70px_H70px {
+    width: 30px; height: 30px;
+    }
+    .Size_W900px {
+    width: 900px;
+    }
+    .Size_Hpx {
+    height: 200px;
+    }
+    .Size_H70px {
+    height: 70px;
+    }
+    
