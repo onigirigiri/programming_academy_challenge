@@ -7,11 +7,41 @@
     align-items: center; 
     flex-wrap: wrap; 
     }
-    .Background_Blue {
-    background: blue;
-    font-size: 3px;
+    .Background_red2 {
+    background: navy;
+    position: relative;
+    top: -24px;
+    font-size: 10px;
+    letter-spacing: 10px;
     color: white;
-    text-align: right;
+    text-align: center;
+    font-weight: 900;
+    }
+    .Background_yellow2{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    background-color: #FFFFCC;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    font-size: 12px;
+    }
+    .Background_red{
+    box-sizing: content-box;
+    padding-top: 7px;
+    width: 60px;
+    height: 35px;
+    font-size: 10px;
+    font-weight: 900;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    }
+    .Background_Blue{
+    background-color: navy;
+    color: white;
+    font-size: 2px;
     }
     ul{
         display: flex;
@@ -21,7 +51,7 @@
     }
     ul li:nth-of-type(2){
         margin: auto;
-    }
+    }   
     ul li:nth-of-type(3){
         margin: auto;
     }
@@ -67,14 +97,29 @@
     .Background_Red {
     background: white;
     }
-    .Background_Green {
-    background: green;
+    .Background_blue {
+    background: navy;
+    }
+    .Background_gray {
+    background: gray;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    }
+    .Background_gray{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .Background_gray p {
+        margin: 0; 
+        padding: 0;
     }
     .Background_Yellow {
-    background: yellow;
+    background: navy;
     }
-    .Background_Green {
-    background: green;
+    .Background_blue2 {
+    background: navy;
     }
     .Size_W70px_H70px {
     width: 30px; height: 30px;
@@ -82,10 +127,40 @@
     .Size_W900px {
     width: 900px;
     }
-    .Size_Hpx {
-    height: 200px;
+    .Size_H150px {
+    height: 150px;
     }
     .Size_H70px {
     height: 70px;
     }
-    
+.text::before{
+    content: "\\";//mac
+    font-size: 10px;
+    color: white;
+}
+.text::after{
+    content: "/";
+    font-size: 10px;
+    color: white;
+}
+
+.Car{
+background-color: #ffffe0;
+box-sizing: content-box;
+width: 900px;
+height: 350px;
+text-align: center;
+}
+.a1{
+color: rgb(255, 102, 0);
+font-weight: 900;
+padding-top: 20px;
+text-align: center;
+}
+.b1{
+color: white;
+background-color: blue;
+width: 900px;
+height: 30px;
+font-size: 2px;
+}
