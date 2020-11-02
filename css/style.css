@@ -161,6 +161,71 @@ text-align: center;
 color: white;
 background-color: blue;
 width: 900px;
-height: 30px;
+height: 28px;
+font-size: 1px;
+text-align: left;
+}
+
+.a3{
+background-color: #ffffe0;
+box-sizing: content-box;
+width: 900px;
+height: 20px;
+display: flex;
+justify-content: space-around;  
+flex-wrap: wrap; 
+color: rgb(255, 102, 0);
+font-weight: 900;
+}
+.a3-1{
+background-color: #ffffe0;
+padding-left: 90px;
+padding-top: 20px;
+}
+
+.a4{
+background-color: #ffffe0;
+box-sizing: content-box;
+width: 900px;
+height: 170px;
+display: flex;
+justify-content: space-around;  
+flex-wrap: wrap; 
+padding-top: 20px;
+}
+
+.a5{
+background-color: #ffffe0;
+box-sizing: content-box;
+width: 900px;
+height: 20px;
+display: flex;
+justify-content: space-around;  
+flex-wrap: wrap; 
 font-size: 2px;
+padding-bottom: 0px;
+font-weight: 900;
+}
+
+.a6{
+background-color: #ffffe0;
+box-sizing: content-box;
+width: 900px;
+height: 20px;
+display: flex;
+justify-content: space-around;  
+flex-wrap: wrap;
+font-size: 2px; 
+padding-top: 0px;
+}
+
+.a5-1{
+background-color: #ffffe0;
+padding-right: 118px;
+padding-top: 0px;
+}
+.a6-1{
+background-color: #ffffe0;
+padding-left: 0px;
+padding-top: 0px;
 }
